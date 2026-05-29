@@ -1,5 +1,7 @@
 package com.example.firstproject_b.service;
 
-public class ArticleService {
+import org.springframework.stereotype.Service;
 
+@Service
+public class ArticleService {
 }

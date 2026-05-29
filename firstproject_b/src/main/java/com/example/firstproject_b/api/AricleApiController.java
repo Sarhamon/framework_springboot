@@ -12,6 +12,9 @@ import java.util.List;
 @Slf4j
 @RestController
 public class AricleApiController {
+    @Autowired
+    private ArticleService articleService;
+
     @Autowired // 게시글 리파지터리 주입
     private ArticleRepository articleRepository;
 
